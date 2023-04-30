@@ -1,0 +1,162 @@
+=========================================================================
+[[127  94]
+ [147  82]]
+Linear SVM Accuracy: 46.44444444444444%
+10 fold cross validation scores=  [0.47333333 0.48       0.46       0.50666667 0.44666667 0.44
+ 0.41333333 0.5        0.38       0.46666667]
+average_10_fold=  0.4566666666666667
+max_10_fold=  0.5066666666666667
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+        -1.0       0.46      0.57      0.51       221
+         1.0       0.47      0.36      0.40       229
+
+    accuracy                           0.46       450
+   macro avg       0.46      0.47      0.46       450
+weighted avg       0.46      0.46      0.46       450
+
+=========================================================================
+=========================================================================
+[[122  99]
+ [139  90]]
+RBF SVM Accuracy: 47.11111111111111%
+10 fold cross validation scores=  [0.46       0.51333333 0.5        0.49333333 0.45333333 0.43333333
+ 0.39333333 0.54666667 0.45333333 0.47333333]
+average_10_fold=  0.4720000000000001
+max_10_fold=  0.5466666666666666
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+        -1.0       0.47      0.55      0.51       221
+         1.0       0.48      0.39      0.43       229
+
+    accuracy                           0.47       450
+   macro avg       0.47      0.47      0.47       450
+weighted avg       0.47      0.47      0.47       450
+
+=========================================================================
+=========================================================================
+[[171  50]
+ [ 41 188]]
+RF Accuracy: 79.77777777777779%
+10 fold cross validation scores=  [0.83333333 0.74       0.75333333 0.84       0.77333333 0.80666667
+ 0.82666667 0.78666667 0.79333333 0.83333333]
+average_10_fold=  0.7986666666666665
+max_10_fold=  0.84
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+        -1.0       0.81      0.77      0.79       221
+         1.0       0.79      0.82      0.81       229
+
+    accuracy                           0.80       450
+   macro avg       0.80      0.80      0.80       450
+weighted avg       0.80      0.80      0.80       450
+
+=========================================================================
+=========================================================================
+[[106 115]
+ [120 109]]
+LDA Accuracy: 47.77777777777778%
+10 fold cross validation scores=  [0.47333333 0.44666667 0.5        0.44666667 0.46       0.47333333
+ 0.42666667 0.5        0.4        0.43333333]
+average_10_fold=  0.45600000000000007
+max_10_fold=  0.5
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+        -1.0       0.47      0.48      0.47       221
+         1.0       0.49      0.48      0.48       229
+
+    accuracy                           0.48       450
+   macro avg       0.48      0.48      0.48       450
+weighted avg       0.48      0.48      0.48       450
+
+=========================================================================
+=========================================================================
+[[177  44]
+ [ 53 176]]
+DT Accuracy: 78.44444444444446%
+10 fold cross validation scores=  [0.78       0.71333333 0.70666667 0.74666667 0.69333333 0.70666667
+ 0.80666667 0.74666667 0.78666667 0.82      ]
+average_10_fold=  0.7506666666666668
+max_10_fold=  0.82
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+        -1.0       0.77      0.80      0.78       221
+         1.0       0.80      0.77      0.78       229
+
+    accuracy                           0.78       450
+   macro avg       0.78      0.78      0.78       450
+weighted avg       0.79      0.78      0.78       450
+
+=========================================================================
+=========================================================================
+[[ 14 207]
+ [ 12 217]]
+NB Accuracy: 51.33333333333333%
+10 fold cross validation scores=  [0.46666667 0.5        0.51333333 0.48666667 0.53333333 0.45333333
+ 0.38       0.45333333 0.42       0.45333333]
+average_10_fold=  0.466
+max_10_fold=  0.5333333333333333
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+        -1.0       0.54      0.06      0.11       221
+         1.0       0.51      0.95      0.66       229
+
+    accuracy                           0.51       450
+   macro avg       0.53      0.51      0.39       450
+weighted avg       0.52      0.51      0.39       450
+
+=========================================================================
+=========================================================================
+[[142  79]
+ [ 78 151]]
+KNN Accuracy: 65.11111111111111%
+10 fold cross validation scores=  [0.66666667 0.69333333 0.7        0.78666667 0.72666667 0.75333333
+ 0.72666667 0.78       0.73333333 0.78      ]
+average_10_fold=  0.7346666666666668
+max_10_fold=  0.7866666666666666
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+        -1.0       0.65      0.64      0.64       221
+         1.0       0.66      0.66      0.66       229
+
+    accuracy                           0.65       450
+   macro avg       0.65      0.65      0.65       450
+weighted avg       0.65      0.65      0.65       450
+
+=========================================================================
+C:\Users\Anushka\anaconda3\lib\site-packages\sklearn\neighbors\_classification.py:228: FutureWarning: Unlike other reduction functions (e.g. `skew`, `kurtosis`), the default behavior of `mode` typically preserves the axis it acts along. In SciPy 1.11.0, this behavior will change: the default value of `keepdims` will become False, the `axis` over which the statistic is taken will be eliminated, and the value None will no longer be accepted. Set `keepdims` to True or False to avoid this warning.
+  mode, _ = stats.mode(_y[neigh_ind, k], axis=1)
+=========================================================================
+[[137  84]
+ [125 104]]
+AdaBoost Accuracy: 53.55555555555556%
+10 fold cross validation scores=  [0.59333333 0.54       0.6        0.5        0.51333333 0.56666667
+ 0.48666667 0.64       0.54666667 0.56666667]
+average_10_fold=  0.5553333333333333
+max_10_fold=  0.64
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+        -1.0       0.52      0.62      0.57       221
+         1.0       0.55      0.45      0.50       229
+
+    accuracy                           0.54       450
+   macro avg       0.54      0.54      0.53       450
+weighted avg       0.54      0.54      0.53       450
+
+=========================================================================

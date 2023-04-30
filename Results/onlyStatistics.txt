@@ -1,0 +1,167 @@
+
+=========================================================================
+[[33 78]
+ [43 71]]
+Linear SVM Accuracy: 46.22222222222222%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.43      0.30      0.35       111
+           1       0.48      0.62      0.54       114
+
+    accuracy                           0.46       225
+   macro avg       0.46      0.46      0.45       225
+weighted avg       0.46      0.46      0.45       225
+
+=========================================================================
+=========================================================================
+[[32 79]
+ [40 74]]
+RBF SVM Accuracy: 47.11111111111111%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.44      0.29      0.35       111
+           1       0.48      0.65      0.55       114
+
+    accuracy                           0.47       225
+   macro avg       0.46      0.47      0.45       225
+weighted avg       0.46      0.47      0.45       225
+
+=========================================================================
+=========================================================================
+[[64 47]
+ [54 60]]
+RF Accuracy: 55.111111111111114%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.54      0.58      0.56       111
+           1       0.56      0.53      0.54       114
+
+    accuracy                           0.55       225
+   macro avg       0.55      0.55      0.55       225
+weighted avg       0.55      0.55      0.55       225
+
+=========================================================================
+=========================================================================
+[[51 60]
+ [54 60]]
+LDA Accuracy: 49.333333333333336%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.49      0.46      0.47       111
+           1       0.50      0.53      0.51       114
+
+    accuracy                           0.49       225
+   macro avg       0.49      0.49      0.49       225
+weighted avg       0.49      0.49      0.49       225
+
+=========================================================================
+=========================================================================
+[[64 47]
+ [57 57]]
+DT Accuracy: 53.77777777777778%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.53      0.58      0.55       111
+           1       0.55      0.50      0.52       114
+
+    accuracy                           0.54       225
+   macro avg       0.54      0.54      0.54       225
+weighted avg       0.54      0.54      0.54       225
+
+=========================================================================
+=========================================================================
+[[39 72]
+ [45 69]]
+NB Accuracy: 48.0%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.46      0.35      0.40       111
+           1       0.49      0.61      0.54       114
+
+    accuracy                           0.48       225
+   macro avg       0.48      0.48      0.47       225
+weighted avg       0.48      0.48      0.47       225
+
+=========================================================================
+=========================================================================
+[[77 34]
+ [47 67]]
+KNN Accuracy: 64.0%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.62      0.69      0.66       111
+           1       0.66      0.59      0.62       114
+
+    accuracy                           0.64       225
+   macro avg       0.64      0.64      0.64       225
+weighted avg       0.64      0.64      0.64       225
+
+=========================================================================
+=========================================================================
+[[111   0]
+ [114   0]]
+GPC Accuracy: 49.333333333333336%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.49      1.00      0.66       111
+           1       0.00      0.00      0.00       114
+
+    accuracy                           0.49       225
+   macro avg       0.25      0.50      0.33       225
+weighted avg       0.24      0.49      0.33       225
+
+=========================================================================
+c:\python37\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\python37\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+c:\python37\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+=========================================================================
+[[57 54]
+ [56 58]]
+AdaBoost Accuracy: 51.11111111111111%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.50      0.51      0.51       111
+           1       0.52      0.51      0.51       114
+
+    accuracy                           0.51       225
+   macro avg       0.51      0.51      0.51       225
+weighted avg       0.51      0.51      0.51       225
+
+=========================================================================
+=========================================================================
+[[ 18  93]
+ [ 10 104]]
+QDA Accuracy: 54.22222222222223%
+
+Classification Report : 
+              precision    recall  f1-score   support
+
+           0       0.64      0.16      0.26       111
+           1       0.53      0.91      0.67       114
+
+    accuracy                           0.54       225
+   macro avg       0.59      0.54      0.46       225
+weighted avg       0.58      0.54      0.47       225
+
+=========================================================================
