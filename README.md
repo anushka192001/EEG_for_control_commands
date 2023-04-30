@@ -1,0 +1,2 @@
+# EEG_for_control_commands
+EEG_signals_to_use_as_control_commands
